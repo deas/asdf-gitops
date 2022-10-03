@@ -1,9 +1,9 @@
 <div align="center">
 
-# asdf-gitops [![Build](https://github.com/deas/asdf-gitops/actions/workflows/build.yml/badge.svg)](https://github.com/deas/asdf-gitops/actions/workflows/build.yml) [![Lint](https://github.com/deas/asdf-gitops/actions/workflows/lint.yml/badge.svg)](https://github.com/deas/asdf-gitops/actions/workflows/lint.yml)
+# asdf-weave-gitops [![Build](https://github.com/deas/asdf-weave-gitops/actions/workflows/build.yml/badge.svg)](https://github.com/deas/asdf-weave-gitops/actions/workflows/build.yml) [![Lint](https://github.com/deas/asdf-weave-gitops/actions/workflows/lint.yml/badge.svg)](https://github.com/deas/asdf-weave-gitops/actions/workflows/lint.yml)
 
 
-[gitops](https://github.com/weaveworks/weave-gitops) plugin for the [asdf version manager](https://asdf-vm.com).
+[weave-gitops](https://github.com/weaveworks/weave-gitops) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -24,24 +24,24 @@
 Plugin:
 
 ```shell
-asdf plugin add gitops
+asdf plugin add weave-gitops
 # or
-asdf plugin add gitops https://github.com/deas/asdf-gitops.git
+asdf plugin add weave-gitops https://github.com/deas/asdf-weave-gitops.git
 ```
 
-gitops:
+weave-gitops:
 
 ```shell
 # Show all installable versions
-asdf list-all gitops
+asdf list-all weave-gitops
 
 # Install specific version
-asdf install gitops latest
+asdf install weave-gitops latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global gitops latest
+asdf global weave-gitops latest
 
-# Now gitops commands are available
+# Now weave-gitops commands are available
 gitops --help
 ```
 
@@ -52,7 +52,7 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/deas/asdf-gitops/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/deas/asdf-weave-gitops/graphs/contributors)!
 
 # License
 
